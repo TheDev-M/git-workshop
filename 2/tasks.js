@@ -8,7 +8,7 @@
 const getBeers = require('../data')
 
 function getTargetBeer() {
-    return "nagymacska";
+    return getBeers[0].name;
 }
 
 console.log(getTargetBeer())
